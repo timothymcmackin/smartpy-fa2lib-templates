@@ -1,6 +1,19 @@
 import smartpy as sp
 from smartpy.templates import fa2_lib as fa2
 
+"""
+This template creates a fungible token contract with the SmartPy FA2 library.
+
+To use this template:
+
+1. Install SmartPy locally as described here: https://smartpy.io/manual/introduction/installation
+2. Customize the template with the mixins that you want to use: https://smartpy.io/guides/FA2-lib/mixins
+3. Customize the template to control how the tokens behave.
+4. Compile the contract and run the tests by running `python fa2_lib_fungible.py`. SmartPy generates output files in the fa2_lib_fungible folder.
+
+To deploy the contract, either paste the SmartPy code in the SmartPy online IDE and deploy it from there or use another tool such as the Octez client to deploy it. For information on the Octez client, see https://docs.tezos.com/developing/octez-client.
+"""
+
 # Main template for FA2 contracts
 main = fa2.main
 
